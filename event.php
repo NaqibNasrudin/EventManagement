@@ -26,7 +26,7 @@
                 <input type="text" placeholder="Enter Event Name" name="event"><br><br> 
 
                 <label for="name">Event Venue: </label><br>
-                <select name="venue" id="venue">
+                <select name="place" id="place">
                 <option value="Male Sport Complex (MSC)">Male Sport Complex (MSC)</option>
                  <option value="Female Sport Complex (FSC)">Female Sport Complex (MSC)</option>
                  <option value="ICC">ICC</option>
