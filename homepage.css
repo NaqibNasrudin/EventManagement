@@ -1,0 +1,62 @@
+* {
+    box-sizing: border-box;
+    padding: 5px;
+    margin: 5px;
+}
+
+body {
+    background-image: url("image/yasminhana1.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 50px;
+}
+  
+.container {
+    border-radius: 10px 10px 0px 0px;
+    padding: 30px;  
+    background-color: rgb(184, 178, 178);
+    width: 50%; 
+    overflow: hidden; 
+    margin: 0 auto;
+    margin-top: 20px;
+    opacity: 0.8; 
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(168, 44, 86);
+}
+
+a:hover {
+    color: rgb(180, 103, 146);
+}
+
+.container1 {
+    border-radius: 0px 0px 10px 10px;
+    padding: 30px;  
+    background-color: rgb(184, 178, 178);
+    width: 50%; 
+    overflow: hidden; 
+    margin: 0 auto;
+    margin-top: 10px;
+    opacity: 0.8; 
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h4 {
+    text-align: center;
+}
