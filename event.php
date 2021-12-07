@@ -22,16 +22,21 @@
                 <label for="name">Customer Name : </label><br>
                 <input type="text" placeholder="Enter Your Name" name="name"><br><br>
 
-                <label for="name">Event Name : </label><br>
+                <label for="name">Event Name: </label><br>
                 <input type="text" placeholder="Enter Event Name" name="event"><br><br> 
 
-                <label for="name">Event Place : </label><br>
-                <input type="text" placeholder="Place" name="place"><br><br>
+                <label for="name">Event Venue: </label><br>
+                <select name="venue" id="venue">
+                <option value="Male Sport Complex (MSC)">Male Sport Complex (MSC)</option>
+                 <option value="Female Sport Complex (FSC)">Female Sport Complex (MSC)</option>
+                 <option value="ICC">ICC</option>
+                 <option value="Wadi Budi">Wadi Budi</option>
+            </select><br><br>
 
-                <label for="name">Start Date : </label><br>
+                <label for="name">Start Date: </label><br>
                 <input type="date" name="date1"><br><br>
 
-                <label for="name">End Date : </label><br>
+                <label for="name">End Date: </label><br>
                 <input type="date" name="date2"><br><br>
 
                 <input type="submit" class="submitbtn" name="submit" value="Book Event">
