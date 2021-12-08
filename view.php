@@ -31,7 +31,9 @@
             <th>Event Name</th>
             <th>Place</th>
             <th>Start Date</th>
+            <th>Start Time</th>
             <th>End Date</th>
+            <th>End Time</th>
         </tr>
         <?php do { ?>
             <div class="result">
@@ -40,7 +42,9 @@
                     <td><?php echo $row['event_name'];?></td>
                     <td><?php echo $row['place']; ?></td>
                     <td><?php echo $row['e_start']; ?></td>
+                    <td><?php echo $row['t_start']; ?></td>
                     <td><?php echo $row['e_finish']; ?></td>
+                    <td><?php echo $row['t_finish']; ?></td>
                 </tr>
             </div>
         <?php } while($row = $query -> fetch_assoc()) ?>
