@@ -2,21 +2,28 @@
 include_once 'db_connect.php';
 if(isset($_POST['submit']))
 {    
-     $name = $_POST['name'];
-     $event = $_POST['event'];
-     $place = $_POST['place'];
-     $start = date('Y-m-d', strtotime($_POST['date1']));
-     $finish = date('Y-m-d', strtotime($_POST['date2']));
-     $time1 = $_POST['time_start'];
-     $time2 = $_POST['time_end'];
-
-     $sql = "INSERT INTO booking (name,event_name,place,e_start,t_start,e_finish,t_finish) VALUES ('$name','$event','$place','$start','$time1','$finish','$time2')";
+    $name = $_POST['name'];
+    $event = $_POST['event'];
+    $place = $_POST['place'];
+    $start = date('Y-m-d', strtotime($_POST['date1']));
+    $finish = date('Y-m-d', strtotime($_POST['date2']));
+    $time1 = $_POST['time_start'];
+    $time2 = $_POST['time_end'];
+    $check = mysqli_query($connect,"SELECT * FROM booking WHERE place = '$place' AND e_start = '$start'");
+    $count = mysqli_num_rows($check);
+ 
+    if ($count > 0){
+        echo "Already taken, please book another place.....";
+    }
+    else{
+        $sql = "INSERT INTO booking (name,event_name,place,e_start,t_start,e_finish,t_finish) VALUES ('$name','$event','$place','$start','$time1','$finish','$time2')";
      if (mysqli_query($connect, $sql)) {
         echo "Booking Successfull !!" ;
      } else {
         echo "Error: " . $sql . ":-" . mysqli_error($connect);
      }
      mysqli_close($connect);
+    }
 }
 ?>
 <!DOCTYPE html>
