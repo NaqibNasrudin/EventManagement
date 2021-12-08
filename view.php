@@ -1,4 +1,5 @@
 <?php
+//Muhammad Naqib bin Nasrudin 1912549
   include("db_connect.php");
 
   $sql = "SELECT * FROM booking";
