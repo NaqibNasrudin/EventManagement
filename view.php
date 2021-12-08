@@ -22,7 +22,6 @@
     </style>
 </head>
 <body>
-    <a href="event.php">HOME</a><br><br>  
     <h1 style="text-align: center;">Event List</h1>  
     <div class="content">
     <table style="width:100%">
@@ -50,5 +49,7 @@
         <?php } while($row = $query -> fetch_assoc()) ?>
     </table>
     </div>
+    <br><br>
+    <a href="event.php" style="font-size: 20px;">New Booking</a>  
 </body>
 </html>
