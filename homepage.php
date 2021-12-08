@@ -19,7 +19,7 @@
     </div>
     <div class="container1">
       <h2>We host the best events for you with proper management</h2>
-      <h4>Controlling chaos is what event management is all about. There's a lot to manage with conferences, marketing events, and similar productions. Fortunately, today's best event management processes help you with every aspect of your event journey.</h4>
+      <h3>Controlling chaos is what event management is all about. There's a lot to manage with conferences, marketing events, and similar productions. Fortunately, today's best event management processes help you with every aspect of your event journey.</h3>
     </div>
     
 
