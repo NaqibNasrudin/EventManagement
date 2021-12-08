@@ -1,4 +1,5 @@
 <?php
+//Muhammad Naqib bin Nasrudin 1912549
     $hostname = "localhost";
     $username = "root";
     $password = "";
