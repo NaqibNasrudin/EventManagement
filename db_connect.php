@@ -1,7 +1,7 @@
 <?php
     $hostname = "localhost";
     $username = "root";
-    $password = "almxlna1012";
+    $password = "";
     $dbname = "event";
 
     $connect = mysqli_connect($hostname, $username, $password);
