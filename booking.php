@@ -7,8 +7,10 @@ if(isset($_POST['submit']))
      $place = $_POST['place'];
      $start = date('Y-m-d', strtotime($_POST['date1']));
      $finish = date('Y-m-d', strtotime($_POST['date2']));
+     $time1 = $_POST['time_start'];
+     $time2 = $_POST['time_end'];
 
-     $sql = "INSERT INTO booking (name,event_name,place,e_start,e_finish) VALUES ('$name','$event','$place','$start','$finish')";
+     $sql = "INSERT INTO booking (name,event_name,place,e_start,t_start,e_finish,t_finish) VALUES ('$name','$event','$place','$start','$time1','$finish','$time2')";
      if (mysqli_query($connect, $sql)) {
         echo "Booking Successfull !!" ;
      } else {
