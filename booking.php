@@ -13,7 +13,7 @@ if(isset($_POST['submit']))
     $count = mysqli_num_rows($check);
  
     if ($count > 0){
-        echo "Already taken, please book another place.....";
+        echo "Already taken, please book another place/date.....";
     }
     else{
         $sql = "INSERT INTO booking (name,event_name,place,e_start,t_start,e_finish,t_finish) VALUES ('$name','$event','$place','$start','$time1','$finish','$time2')";
