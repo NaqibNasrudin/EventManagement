@@ -1,8 +1,3 @@
-/*
-Muhammad Adib Bin Jamaluddin
-1915889
-*/
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -27,22 +22,28 @@ Muhammad Adib Bin Jamaluddin
                 <label for="name">Customer Name : </label><br>
                 <input type="text" placeholder="Enter Your Name" name="name"><br><br>
 
-                <label for="name">Event Name: </label><br>
+                <label for="name">Event Name : </label><br>
                 <input type="text" placeholder="Enter Event Name" name="event"><br><br> 
 
                 <label for="name">Event Venue: </label><br>
                 <select name="place" id="place">
                 <option value="Male Sport Complex (MSC)">Male Sport Complex (MSC)</option>
-                 <option value="Female Sport Complex (FSC)">Female Sport Complex (MSC)</option>
-                 <option value="ICC">ICC</option>
-                 <option value="Wadi Budi">Wadi Budi</option>
-            </select><br><br>
+                    <option value="Female Sport Complex (FSC)">Female Sport Complex (MSC)</option>
+                    <option value="ICC">ICC</option>
+                    <option value="Wadi Budi">Wadi Budi</option>
+                </select><br><br>
 
-                <label for="name">Start Date: </label><br>
+                <label for="name">Start Date : </label><br>
                 <input type="date" name="date1"><br><br>
 
-                <label for="name">End Date: </label><br>
+                <label for="name">Start time</label>
+                <input type="time" name="time_start"><br><br>
+
+                <label for="name">End Date : </label><br>
                 <input type="date" name="date2"><br><br>
+
+                <label for="name">End time</label>
+                <input type="time" name="time_end"><br><br>
 
                 <input type="submit" class="submitbtn" name="submit" value="Book Event">
             </form>
