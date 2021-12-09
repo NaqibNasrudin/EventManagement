@@ -13,5 +13,7 @@ Assigned Task:<br> Scripting/Code-> Aisyah & Adib<br>
                Database-> Naqib<br>
                
 
-Brief Description:<br>
+Brief Description:<br> Our assigned case study is to make a website for event booking in IIUM Gombak. <br>
+Users must provide their informations and details about the event to book the venue for it. <br>
+
 
