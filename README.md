@@ -15,5 +15,6 @@ Assigned Task:<br> Scripting/Code-> Aisyah & Adib<br>
 
 Brief Description:<br> Our assigned case study is to make a website for event booking in IIUM Gombak. <br>
 Users must provide their informations and details about the event to book the venue for it. <br>
+The website was made by using PHP that was connected to out database,<br> which means everything that user insert at our form on our website will be recorded at the database.<br> And also the data can be viewd by users from our website.
 
 
